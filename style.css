@@ -1,0 +1,189 @@
+@font-face{
+    font-family: japan;
+    src: url(./assets/3856NeueMachina.woff2);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.section1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+nav h1 i{
+    transform: rotate(45deg);
+    display: inline-block;
+
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+nav h1{
+    font-size: 40px;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+nav button{
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9ae975;
+}
+
+
+
+.center{
+    display: flex;
+    padding: 70px 130px;
+    height: 80%;
+    width: 100%;
+}
+.center-part1{
+    height: 100%;
+    width: 38%;
+}
+
+.center-part1 h1{
+    font-size: 50px;
+    font-family: japan;
+    line-height: 1.3;
+}
+.center-part1 p{
+    font-size: 20px;
+    width: 85%;
+    margin-top: 25px;
+}
+.center-part1 button{
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: #9ae975;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+.center-part2{
+    height: 100%;
+    width: 62%;
+    position: relative;
+}
+.center-part2 img{
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+.section1bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+.section1bottom img{
+    height: 40px;
+}
+.section2 .services{
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 8%;
+    gap: 20px;
+    font-family: japan;
+}
+.services h3{
+    background-color: #9ae975;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.services p{
+    width: 40%;
+    font-size: 18px;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 80px;
+    
+}
+.elem{
+    flex-shrink: 0;
+    height: 300px;
+    width: 45%;
+    border-radius: 40px;
+    display: flex;
+    padding: 50px;
+    border: 2px solid black;
+    box-shadow: 0px 10px 0px black;
+}
+.elempart1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elempart1 h2{
+    font-size: 24px;
+    background-color: #9ae975;
+    font-family: japan;
+    width: 87%;
+    font-weight: 500;
+}
+.elempart1 h4{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 25px;
+    font-weight: 600;
+    gap: 5px;
+
+}
+.elempart2{
+    height: 100%;
+    width: 50%;
+}
+.elempart2 img{
+    height: 100%;
+}
+.elempart1 h4 i{
+    font-size: 35px;
+}
+.black{
+    background-color: black;
+}
+.black .elempart1 h2{
+    color: black;
+    background-color: white;
+}
+.black .elempart1 h4{
+    color: white;
+}
