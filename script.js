@@ -73,35 +73,35 @@ tl.from(".section1bottom img",{
             scroller: "body",
             start: "top 30%",
             end: "top 0%",
-            scrub: 1,
+            scrub: 4,
         }
     })
 
     tl3.from(".section3",{
         y:0,
         opacity:0,
-        duration:0.7
+        duration:1
     },"outer")
     tl3.from(".outer img",{
         x: -300,
         opacity:0,
-        duration:0.7,
+        duration:1,
     },"outer")
     tl3.from(".outer .section3part1",{
         x: 300,
         opacity:0,
-        duration:0.7,
+        duration:1,
     },"outer")
 
     tl3.from(".section4part1 h1",{
         x:500,
         opacity:0,
-        duration:0.7,
+        duration:1,
     },"section4part2h1")
     tl3.from(".section4part1 p",{
         x:-500,
         opacity:0,
-        duration:0.7,
+        duration:1,
     },"section4part2h1")
 
     tl3.from(".section4part2",{
