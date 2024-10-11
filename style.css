@@ -30,7 +30,6 @@ nav{
 nav h1 i{
     transform: rotate(45deg);
     display: inline-block;
-
 }
 .part2{
     display: flex;
@@ -52,9 +51,6 @@ nav button{
     border: none;
     background-color: #9ae975;
 }
-
-
-
 .center{
     display: flex;
     padding: 70px 130px;
@@ -65,7 +61,6 @@ nav button{
     height: 100%;
     width: 38%;
 }
-
 .center-part1 h1{
     font-size: 50px;
     font-family: japan;
@@ -79,7 +74,8 @@ nav button{
 .center-part1 button{
     margin-top: 20px;
     font-size: 25px;
-    background-color: #9ae975;
+    background-color: black;
+    color: #9ae975;
     border: none;
     padding: 20px 25px;
     border-radius: 10px;
@@ -131,7 +127,6 @@ nav button{
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 80px;
-    
 }
 .elem{
     flex-shrink: 0;
@@ -161,11 +156,9 @@ nav button{
 .elempart1 h4{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     font-size: 25px;
     font-weight: 600;
     gap: 5px;
-
 }
 .elempart2{
     height: 100%;
@@ -186,4 +179,254 @@ nav button{
 }
 .black .elempart1 h4{
     color: white;
+}
+
+.section3{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .outer{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    background-color: beige;
+    border-radius: 25px;
+}
+.outer .section3part1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
+}
+.section3part1 h1{
+    font-size: 35px;
+    font-family: japan;
+    background-color: #9ae975;
+}
+.section3part1 p{
+    font-family: japan;
+    font-size: 15px;
+}
+.section3part1 button{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+.section3part2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.section3part2 img{
+    position: absolute;
+    right: 10%;
+    height: 80%;
+    margin-right: 60px;
+}
+.section4{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4part1{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    padding: 50px 120px;
+    gap: 30px;
+    font-family: japan;
+}
+.section4part1 h1{
+    font-size: 30px;
+    width: 35%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #9ae975;
+    padding: 10px 15px;
+}
+.section4part1 p{
+    font-size: 17px;
+}
+
+.section4part2{
+    position: relative;
+    top: 10%;
+    height: 55%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: black;
+}
+.section4part2 .part1{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 50px;
+}
+.section4part2 .part1 p{
+    font-size: 20px;
+    text-align: start;
+    color: white;
+}
+.section4part2 .part1 h1{
+    font-size: 25px;
+    color: #9ae975;
+    text-align: start;
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 720px) {
+    nav {
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    nav h4 {
+        font-size: 18px;
+    }
+
+    nav button {
+        padding: 8px 15px;
+        font-size: 18px;
+    }
+
+    .center {
+        padding: 50px 20px;
+        flex-direction: column;
+    }
+
+    .center-part1, .center-part2 {
+        width: 100%;
+    }
+
+    .center-part1 h1 {
+        font-size: 35px;
+    }
+
+    .center-part1 p {
+        font-size: 16px;
+    }
+
+    .center-part1 button {
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+
+    .section1bottom {
+        flex-wrap: wrap;
+        padding: 20px 40px;
+    }
+
+    .services {
+        padding: 20px 40px;
+    }
+
+    .services h3 {
+        font-size: 22px;
+    }
+
+    .services p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 20px 40px;
+        gap: 40px;
+    }
+
+    .elem {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .elempart1 h2 {
+        font-size: 20px;
+    }
+
+    .elempart1 h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .center-part1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .center-part1 h1 {
+        font-size: 30px;
+    }
+
+    .center-part1 p {
+        font-size: 18px;
+    }
+
+    .center-part1 button {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+    
+    .section1bottom img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .elem {
+        padding: 20px;
+        box-shadow: none;
+        border: 1px solid black;
+    }
+
+    .services {
+        flex-direction: column;
+    }
 }
