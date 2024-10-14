@@ -129,3 +129,9 @@ tl.from(".section1bottom img",{
         duration:2,
     },"last")
 })();
+
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector("body"),
+    smooth: true,
+});
